@@ -1,1 +1,4 @@
 # Resume-Customizer
+This project automates the process of tailoring your resume to specific job descriptions using NLP and LaTeX. 
+
+api=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

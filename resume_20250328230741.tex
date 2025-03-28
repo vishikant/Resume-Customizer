@@ -1,0 +1,276 @@
+\documentclass[letterpaper,10.9pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{fontawesome5}
+
+
+%----------FONT OPTIONS----------
+%sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+ \usepackage{CormorantGaramond}
+ \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\footskip}{5pt}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \vspace{-5cm}
+\begin{document}
+% \vspace{-5cm}
+
+\begin{center}
+    %\vspace{-5cm}
+    \textbf{\Huge \scshape Vaishali Kant} \\ \vspace{1pt}
+    \end{center}
+\begin{center}
+    \small  \faPhone\ Mob. +91-9877092399 \quad $|$  \quad \faEnvelope\ \href{}{{vaishalikant139@gmail.com}}\quad $|$ \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/vaishali-kant-0441aa14b/}{{Vaishali-Kant}}
+\end{center}
+\vspace{-0.5cm}
+
+
+%\section{Career Objective}
+%Experienced, highly motivated, and passionate data scientist with almost 3 years of industry experience in developing machine learning algorithms-based solutions, big data analysis, Python programming, and cloud services. Committed to delivering high-quality solutions and solving real-world problems in diverse domains using innovative techniques. 
+% \vspace{0cm}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{
+            \item{
+                \textbf{Languages}{: Python, SQL} \\
+                \vspace{0.5mm}
+                \textbf{ML Algorithms}{: Logistic,Linear Regression, classification , clustering\\
+                \vspace{1mm}
+                \textbf{Python Frameworks}{: Numpy, Pandas, Matplotlib, Plotly, Seaborn, Sklearn}\\
+                \vspace{0.5mm}
+                %\textbf{Relevant Coursework}{: Data Structure, Algorithm Analysis, Object Oriented Programming, Machine Learning and AI} \\
+                \vspace{1mm}
+                \textbf{Data Science Skills}{: EDA (Exploratory Data Analysis), Feature Engineering, Feature Selection, Cross Validation, Hyperparameter-Tuning, Data Visualization, Hypothesis Testing  }\\
+                \vspace{1mm}
+                \textbf{Other tools}{:  Tableau, Git, confluence, excel }\\
+                \vspace{1mm}
+               \textbf{Certifications}{: Data Science course by INeuron, Data Analyst Course By Udemy, 
+SQL for Data Science By IBM ,
+Essentials of Data Science and Big Data by IBM
+}\\
+                \vspace{0.1mm}
+                }
+        }
+    \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+
+            
+\resumeSubHeadingListStart
+    \resumeSubheading
+            {\hspace{-0.2cm}INeuron.AI}{02/2024 -- Present}
+            {\hspace{-0.2cm}Data Analyst Intern}{Banglore}
+            \resumeProjectHeading{\textbf{\hspace{0.1cm}Investment Prediction} \emph{}}{}
+                \resumeItemListStart
+                    \resumeItem{Engineered a cutting-edge stock market trend prediction project through rigorous EDA and feature engineering; leveraged advanced ML techniques to deliver precise predictions and will take 40 percent less time as compared to manual technical analysis 
+}
+                    \resumeItem{Beginning with exploratory data analysis (EDA), I'll delve into historical market data to uncover patterns and relationships and to cut out unbalanced data almost 100 percent.
+.}
+                    \resumeItem{ Feature engineering will be employed to extract meaningful insights, while time series analysis will capture temporal dependencies.
+}
+ \resumeItem{ Regression models and other machine learning techniques will then be applied to forecast future stock prices so that accuracy metrics will be more than 90 percent 
+}
+\resumeSubHeadingListEnd
+\vspace{-0.3cm}
+
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {\hspace{-0.2cm}Fulcrum Digital}{10/2021 -- 07/2023}
+            {\hspace{-0.2cm}Data Quality Analyst}{Pune}
+            \resumeProjectHeading
+            {\textbf{\hspace{-0.2cm}P27(Debulker) - \textit{ Mastercard}}}{}
+           \resumeProjectHeading{\textbf{\hspace{0.1cm}{Test Planning , Execution, Analysis and Reporting}} \emph{}}{}
+                \resumeItemListStart
+                    \resumeItem{Led performance testing initiatives, applying load testing, stress testing, and scalability testing methodologies to assess system performance. This contributed to enhancing overall system efficiency 45-55 percent demonstrating a tangible impact on performance metrics.}
+                    
+                    %\resumeItem{Performed EDA on three years of data of the market clearing prices. Compared the self and cross-correlation of lags}
+                    %\resumeItem{Performed feature engineering and feature selection on the self-lags lags of fuel prices, previous day market clearing prices of solar energy, and weather data.}
+                    %\resumeItem{Custom Metrics (PoP) was used for the evaluation of models aiming to maximize profit.}
+                    \resumeItem{
+Collaborated with stakeholders to understand performance requirements and establish performance acceptance criteria and Executed tests resulting in a 65 percent increase in system responsiveness.
+.} 
+                    %\resumeItem{The scenarios involved were - future-testing, parameter selection, backtesting and risk-analysis.}
+                    \resumeItem{
+Analyzed findings, identifying performance bottlenecks and providing recommendations that led to a 20-30 percent decrease in resource utilization.
+}.}
+                    %\resumeItem{Architected end-to-end simulation pipeline on AWS, leveraging \textbf{AWS Lambdas},\textbf{ Step Function}, \textbf{SQS}, through aws cdk.}
+                    %\resumeItem{Implemented  .}
+                    \resumeItem{
+Generated comprehensive performance test reports summarizing the test findings, including performance metrics, identified
+issues, recommendations, and risk assessments. 
+.}
+                    \resumeItem{
+Communicate results and insights to stakeholders, including developers, project managers, and decision-makers, to facilitate informed decision-making and prioritization of performance efficiency increment to 90-95 percent accuracy
+.}
+                    %\resumeItem{Created user-friendly Jupyter Notebook interface using ipywidgets for request submission and state machine monitoring.}
+                    %\resumeItem{Explored multithreading and multiprocessing within Lambda functions for optimization and improved performance, and lambda concurrency, along with different aws services such as Fargate, EC2.}
+                    %\resumeItem{Actively participated in code reviews, ensuring codebase quality, enhancing space efficiency by 90\% and reducing execution time by 1 minute and collaborating with MLOps teams for AWS CDK deployment.}
+                \resumeItemListEnd
+            %\vspace{-0.2cm}
+        \vspace{0.2cm}
+        \resumeSubheading
+            {\hspace{-0.2cm}Medimen Healthcare}{03/2021 -- 07/2021}
+            {\hspace{-0.2cm}Data Analyst Intern}{New Delhi}
+            \resumeProjectHeading{\textbf{\hspace{0.1cm}Garbage Free City} \emph{}}{}
+                \resumeItemListStart
+                    \resumeItem{Implemented a scoring board system that adheres to a protocol-based grading approach, resulting in 85 percent increased efficiency and accuracy in evaluating cities. 
+}
+                    \resumeItem{Orchestrated the organization, extraction, and dissemination of data across departments, enabling informed decision-making and evaluation of current methods' effectiveness which decrease the 70 percent redundancy. 
+.}
+                    \resumeItem{Collaborated with superiors to interpret and compile data systematically, facilitating a clearer understanding of performance metrics and identifying areas for improvement.
+}
+ \resumeItem{Presented detailed reports to management, offering insights into the significance of gathered data and proposing actionable strategies to optimize outcomes to increase normalization percent. 
+}
+                    %\resumeItem{Performed feature-selection through hypothesis testing on the user's browsing data and transactional history}
+                    %\resumeItem{Customer Segmentation through KMeans was performed using RFM scores.}
+                    %\resumeItem{Analyzed and filtered 100k records of transactional data}
+                    %\resumeItem{Processed and Analyzed the user clickstream (browsing) data of million records to deduce features}.
+                    %\resumeItem{Performed \textbf{customer segmentation} based on RFM scores through \textbf{KMeans} Clustering.}
+                    %\resumeItem{The next purchase model significantly optimized the client's sales and marketing efforts, achieving \textbf{80\% recall} in the top 3 deciles.}
+                \resumeItemListEnd
+        
+          \vspace{-0.1cm}
+           
+                }
+                    %\resumeItem{\textbf{ALS (Alternating Least Squares)} - designed a \textbf{collaborative filtering-based} recommendation engine starting - \textit{"people like you also bought this."}}
+                    %\resumeItem{\textbf{Meta Prod2Vec} - designed a \textbf{}{content-based recommendation engine} for a similar product carousel using the \textbf{Word2Vec} with side information.}
+                    %\resumeItem{Prod2Vec - created a session-based recommendation engine to personalize the user experience for \textit{"People who viewed this, also viewed this"}}
+                    %\resumeItem{Developed the recommendation engine for a customer base of 200k and product base of more than 50k.}
+                    %\resumeItem{It captures around\textbf{ 20\%} of the \textbf{revenue}, with \textbf{25\%} of \textbf{user conversions.}}
+             
+                    %\resumeItem{Analyzed the \textbf{Adobe data feeds} with 700 columns and millions of records.}
+                    %\resumeItem{Coordinated with the Web Analytics team to decode the clicks/events from the data feeds.}
+                    %\resumeItem{This pipeline resulted in replacing the existing pipeline by \textbf{reducing} the one-day data \textbf{retrieval time by 97\%}.}
+                    %\resumeItem{Developed metrics from the clickstream data such as logged-in visits, cart additions, wishlist additions, purchases, time spent, etc.}
+                \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+  
+
+
+
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Chitkara University}{\textit{Rajpura}}
+            {Master of Business Administration in Analytics}{2023 -- 2025}
+        \resumeSubheading
+            {Lovely Professional University}{\textit{Phagwara}}
+            {Bachelor of Technology in Computer Science and Engineering}{2017 -- 2021}
+    \resumeSubHeadingListEnd
+\vspace{-0.3cm}
+
+
+
+\end{document}
+
+
+%-----------PROJECTS-----------
+%\section{Projects}
+%    \resumeSubHeadingListStart
+%        \resumeProjectHeading
+%            {\textbf{Demand Forecasting for the state of Uttar Pradesh} $|$ \emph{Machine Learning}}{}
+%            \resumeItemListStart
+%                \resumeItem{Collected dataset from Central Electricity Authority, consisting of electricity demand for every 15min}
+%                \resumeItem{Implemented various Time Series models such as \textbf{Arima}, \textbf{Sarimax}, Xgboost and forecasted future predictions}
+%            \resumeItemListEnd
+%        \resumeProjectHeading
+%            {\textbf{Social Networking Site} $|$ \emph{Node.js, Express.js, MongoDB}}{}
+%            \resumeItemListStart
+%                \resumeItem{Developed a web application using with Node.js serving a REST API and React as the frontend}
+%                \resumeItem{Designed various features such as Signup Page, Login Page, Profile Page, Create a post, Follow a user, Like posts }
+%            \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%\vspace{-0.5cm}
+
+
+
+
+
